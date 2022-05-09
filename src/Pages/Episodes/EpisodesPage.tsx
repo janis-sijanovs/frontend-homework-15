@@ -16,7 +16,7 @@ const EpisodesPage = () => {
   return (
     <div>
       <h1 className="heading">
-        Charatchers:
+        Episodes:
       </h1>
       <div className="content">
         {visibleEpisodes && visibleEpisodes.map(({ id, name }) => (
